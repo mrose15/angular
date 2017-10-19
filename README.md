@@ -1,2 +1,2 @@
-# angular
-Angular project
+# Angular
+CodeSchool Angular project
