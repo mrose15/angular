@@ -9,10 +9,19 @@ var gems = [
 
 {
 	name: 'Dodecahedron',
-	price: 2.95,
+	price: 2.00,
 	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis lacus quis tortor gravida malesuada et quis nunc. Sed eu commodo risus. Vestibulum non lacus fringilla, mattis risus at, pharetra urna.',
-	canPurchase: false,
-	soldOut: true
+	images: [
+		{
+			full: '/images/pentagonal.jpg',
+			thumb: '/images/pentagonal-thumb.jpg'
+		},
+		{
+			full: '/images/zircon.jpg',
+			thumb: '/images/zircon-thumb.jpg'
+		}
+
+	]
 },
 {
 	name: 'Pentagonal Gem',
@@ -25,3 +34,7 @@ var gems = [
 ]
 
 })();
+
+app.controller("PanelController", function(){
+
+});
