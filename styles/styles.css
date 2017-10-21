@@ -11,9 +11,10 @@ h1, h2, h3, h4{
 	transition: all .4s;
 }
 
-.nav li a:hover,
-.nav li.active a,
-.nav li.active a:hover{
-	background: #5f3577;
+.nav-pills li a:hover,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+	background-color: #5f3577;
 	color: #fff; 
 }
