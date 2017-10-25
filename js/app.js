@@ -90,4 +90,12 @@ app.controller("ReviewController", function(){
 	};
 });
 
+
+app.directive('productTitle', function(){
+	return {
+		restrict: 'E', //E for element
+		templateUrl: '/product-title.html'
+	}
+});
+
 })();

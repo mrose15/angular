@@ -12,10 +12,7 @@
 	<h2>- an Angular store -</h2>
 	<ul class="list-group">
 		<li class="list-group-item" ng-repeat="product in store.products">
-			<h3>
-				{{product.name}}
-				<em>{{product.price | currency}}</em>
-			</h3>
+			<product-title></product-title>
 			<img ng-src="{{product.images[0].full}}"/>
 			<section ng-controller="PanelController as panel">
 				<ul class="nav nav-pills">
